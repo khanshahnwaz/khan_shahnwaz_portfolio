@@ -6,8 +6,12 @@ import {
   Navbar,
   Hero,
   Loading,
+  SkillsAndExperience,
+  Education,
+  Achievements,
   
 } from "./components";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -43,9 +47,20 @@ const App = () => {
               </div>
             </div>
 
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
+            >
+              <div className={`${styles.boxWidth}`}>
+                <SkillsAndExperience />
+                <Education />
+              </div>
+            </div>
+            {/* <Achievements /> */}
+
             
           </motion.section>
         )}
+      <Footer/>
       </AnimatePresence>
     </div>
   );
