@@ -12,6 +12,7 @@ import {
   
 } from "./components";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -56,7 +57,16 @@ const App = () => {
               </div>
             </div>
             {/* <Achievements /> */}
-
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
+            >
+              <div className={`${styles.boxWidth}`}>
+                <Projects />
+                {/* <BlogPosts enabled={false} />
+                <OpenSource />
+                <ExtraCurricular /> */}
+              </div>
+            </div>
             
           </motion.section>
         )}
