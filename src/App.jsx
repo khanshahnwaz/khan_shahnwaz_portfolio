@@ -9,6 +9,7 @@ import {
   SkillsAndExperience,
   Education,
   Achievements,
+  ExtraCurricular
   
 } from "./components";
 import Footer from "./components/Footer";
@@ -63,8 +64,8 @@ const App = () => {
               <div className={`${styles.boxWidth}`}>
                 <Projects />
                 {/* <BlogPosts enabled={false} />
-                <OpenSource />
-                <ExtraCurricular /> */}
+                <OpenSource /> */}
+                <ExtraCurricular />
               </div>
             </div>
             

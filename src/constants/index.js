@@ -71,7 +71,8 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiExpress
 } from "react-icons/si";
 
 import {
@@ -87,7 +88,7 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiCss3, DiJava, DiMongodb, DiMsqlServer, DiNodejs, DiRedis, DiRuby } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1EpD5jOWKvY_8QI9YSDEsAYlaz6plLyBN/view";
 export const repoLink = "https://github.com/khanshahnwaz/khan_shahnwaz_portfolio";
@@ -440,11 +441,94 @@ export const experiences = [
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
+  
+  {
+    id: "project-3",
+    title: "ANDC Treasure Data Management",
+    github: "https://github.com/khanshahnwaz/Andc_Treasure_Data_Management",
+    link: "https://khanshahnwaz.github.io/Andc_Treasure_Data_Management/",
+    image: cluboard,
+    content: "A data management applicaton that takes publications data from respective faculty of our college and save it into a database.Admin has access to see the all publications and filter ir according to thier need and download in excel file.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-2",
+        icon: DiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-2",
+        icon: SiExpress,
+        name: "ExpressJS"
+      },
+      {
+        id: "icon-2",
+        icon: DiNodejs,
+        name: "NodeJS"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+    ],
+  },
+
+  {
+    id: "project-4",
+    title: "DSA Tracker",
+    github: "https://github.com/khanshahnwaz/DSA_Tracker_Frontend",
+    link: "https://dsa-tracker-frontend-kappa.vercel.app/",
+    image: recruitment,
+    content: "A data management applicaton that manages solves the problem of managing daily soved dsa questions to revise it anytime anywhere. Used Redis to improve its performance.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-2",
+        icon: DiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-2",
+        icon: SiExpress,
+        name: "ExpressJS"
+      },
+      {
+        id: "icon-2",
+        icon: DiNodejs,
+        name: "NodeJS"
+      },
+      {
+        id: "icon-2",
+        icon: DiRedis,
+        name: "Redis"
+      },
+      
+    ],
+  },
   {
     id: "project-1",
     title: "MERN ChatBot",
     github: "https://github.com/khanshahnwaz/MERN_ChatBot",
-    link: "https://comicify-ai.vercel.app/",
+    link: "",
     image: recruitment,
     content:
       "Developed a full stack application and integrated Google GEMINI API to make it as ChatGPT clone.",
@@ -478,7 +562,7 @@ export const projects = [
   },
 
   {
-    id: "project-10",
+    id: "project-2",
     title: "Portfolio",
     github: "https://github.com/khanshahnwaz/khan_shahnwaz_portfolio",
     link: "https://khan-shahnwaz-portfolio.vercel.app/",
@@ -530,6 +614,49 @@ export const socialMedia = [
     id: "social-media-5",
     icon: AiFillInstagram,
     link: "https://www.instagram.com/shahnwaz20_07",
+  },
+];
+
+
+// List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
+export const extraCurricular = [
+ 
+  {
+    id: 2,
+    organisation: "Google Developer Student Club, NIT JSR",
+    title: "Member",
+    duration: "December 2024 - Present",
+    content: [
+      {
+        text: "Organized tech talks to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
+        link: "",
+      },
+      
+    ],
+    logo: gdsc,
+  },
+ 
+ 
+  {
+    id: 5,
+    organisation: "E-Cell, NIT JSR",
+    title: "Executive Member",
+    duration: "Sep 2024 - Present",
+    content: [
+      {
+        text: "Organised the season 1 of the E-Cell NIT JSR E-Summit",
+        link: "",
+      },
+      {
+        text: "Member of the Sponsorship and E-Talks team for E-Summit'25",
+        link: "",
+      },
+      {
+        text: "Co-designed and developed the official website of Ecell, NIT JSR ",
+        link: "https://ecellnitjsr.vercel.app/",
+      },
+    ],
+    logo: ecell,
   },
 ];
 

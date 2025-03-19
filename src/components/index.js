@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import SkillsAndExperience from "./SkillsAndExperience";
 import Education from "./Education";
 import Achievements from "./Achievements";
+import ExtraCurricular from "./ExtraCurricular";
 
 
 export {
@@ -15,6 +16,7 @@ export {
     Loading,
     SkillsAndExperience,
     Education,
-    Achievements
+    Achievements,
+    ExtraCurricular
    
 };
