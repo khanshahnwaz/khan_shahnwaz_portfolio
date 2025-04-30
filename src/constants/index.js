@@ -25,7 +25,8 @@ import {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  chatbot
 } from "../assets";
 
 import {
@@ -528,8 +529,8 @@ export const projects = [
     id: "project-1",
     title: "MERN ChatBot",
     github: "https://github.com/khanshahnwaz/MERN_ChatBot",
-    link: "",
-    image: recruitment,
+    link: "https://mern-chat-bot-six.vercel.app/",
+    image: chatbot,
     content:
       "Developed a full stack application and integrated Google GEMINI API to make it as ChatGPT clone.",
     stack: [
