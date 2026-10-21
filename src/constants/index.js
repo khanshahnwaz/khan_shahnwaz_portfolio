@@ -68,7 +68,7 @@ export const educationList = [
     title: "National Institute of Technology Jamshedpur",
     degree: "Master of Computer Applications (MCA)",
     duration: "August 2024 – May 2027",
-    content1: "CGPA: 8.8/10",
+    content1: "Expected graduation: May 2027",
     content2: "Focus: software engineering, algorithms, databases, and AI applications",
   },
   {
